@@ -1048,8 +1048,9 @@ body {
   .team-cards-item {
     float: none;
     display: inline-block;
-    width: 30%;
-    margin-right: 5%; }
+    width: 32%;
+    height: 380px;
+    margin-right: 2%; }
   .slide-reviews {
     width: 90%;
     margin-left: auto;
@@ -1131,7 +1132,15 @@ body {
       right: 0px; }
     .services-types.service-type-4::after {
       bottom: 115px;
-      right: 0px; } }
+      right: 0px; }
+  .team-cards-item {
+    width: 32%;
+    height: 380px;
+    margin-right: 2%;
+    margin-bottom: 50px; }
+  .cards-item-info {
+    width: 200px;
+    margin-left: -100px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -1168,10 +1177,10 @@ body {
     .services-types::after {
       display: none; }
   .team-cards-item {
-    width: 70%;
-    height: 360px;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 50%;
+    height: 430px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 50px; }
   .cards-item-skills {
     top: 35%;

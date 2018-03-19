@@ -11,13 +11,11 @@
     e.preventDefault();
     $hamburger.toggleClass('hamburger_active');
     $mainNav.toggleClass('main-nav_active');
-    // $body.toggleClass('overflow-hidden');
   });
 
   $mainNav.click(function() {
     $hamburger.toggleClass('hamburger_active');
     $mainNav.toggleClass('main-nav_active');
-    // $body.toggleClass('overflow-hidden');
   });
 
   $('div.services-button').on('click', 'button:not(.btn-switch_active)', function() {
@@ -42,7 +40,7 @@
         items: 1,
         nav: true
       },
-      1200:{
+      1024:{
         items: 2,
         nav: true
       }
