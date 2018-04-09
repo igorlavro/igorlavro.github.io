@@ -1306,9 +1306,9 @@ body {
   .cards-item-skills {
     top: 35%;
     left: 50%;
-    -webkit-transform: translate(0, 50%);
-        -ms-transform: translate(0, 50%);
-            transform: translate(0, 50%); }
+    -webkit-transform: translateX() -50%;
+        -ms-transform: translateX() -50%;
+            transform: translateX() -50%; }
   .slide-reviews {
     padding-bottom: 15px; }
   .partners .partner-item {
