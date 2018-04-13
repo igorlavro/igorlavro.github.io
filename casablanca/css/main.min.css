@@ -694,6 +694,10 @@ body {
   padding-top: 160px;
   text-align: center; }
 
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+      touch-action: auto; }
+
 .carousel__img-wrap {
   position: absolute;
   top: 0;
